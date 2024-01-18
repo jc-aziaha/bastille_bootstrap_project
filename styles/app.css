@@ -2,6 +2,52 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.bg-bastille {
+    background-color: #e3f2fd;
+}
+
 .navbar-brand {
     font-family: 'Pacifico', cursive;
+}
+
+.active {
+    color: rgba(207, 4, 4, 0.695) !important;
+}
+
+#hero-section {
+    height: 90vh;
+}
+
+@keyframes moveUpDown
+{
+    0%, 100% 
+    {
+        transform: translateY(0); /* La position initiale ou finale */
+    }
+
+    50% 
+    {
+        transform: translateY(-40px); /* Mi-chemin, monte de 20 pixels */
+    }
+}
+
+#hero-section img
+{
+    animation: moveUpDown 3s ease-in-out infinite; /* 2 secondes, effet ease-in-out, infinie */
+}
+
+
+/* ---------------------------------Tablet---------------------------------- */
+@media screen and (min-width: 768px) {
+    #hero-section {
+        height: 50vh;
+    }
+}
+
+
+/* ---------------------------------Laptop---------------------------------- */
+@media screen and (min-width: 992px) {
+    #hero-section {
+        height: 100vh;
+    }
 }
