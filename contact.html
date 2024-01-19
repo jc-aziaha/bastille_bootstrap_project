@@ -63,7 +63,7 @@
                             <a class="my-2 my-lg-0 mx-lg-2 btn btn-outline-primary" href="">Connexion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="my-2 my-lg-0 mx-lg-2 btn btn-primary" href="">Inscription</a>
+                            <a class="my-2 my-lg-0 mx-lg-2 btn btn-primary" href="register.html">Inscription</a>
                         </li>
                     </ul>
                 </div>
@@ -72,12 +72,13 @@
 
         <!-- Le contenu spécifique à la page -->
         <main>
-            <h1 class="text-center display-5">Page de contact</h1>
+            <h1 class="text-center display-5 my-3">Page de contact</h1>
 
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 order-md-2">
-                        <img src="images/undraw.svg" class="img-fluid" alt="Contactez-moi">
+                        <!-- <img src="images/undraw.svg" class="img-fluid" alt="Contactez-moi"> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.3272477219793!2d2.7788049!3d48.8710378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d258669d87f%3A0x50bced61a25e17e5!2sParc%20Disneyland!5e0!3m2!1sfr!2sfr!4v1705669489371!5m2!1sfr!2sfr" class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-md-8 order-md-1">
                         <form action="traitement.php" method="POST">
@@ -99,6 +100,9 @@
                             </div>
                             <div class="mb-3">
                                 <textarea name="message" class="form-control" rows="4" placeholder="Votre message"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <input type="submit" class="btn btn-primary shadow">
                             </div>
                         </form>
                     </div>
