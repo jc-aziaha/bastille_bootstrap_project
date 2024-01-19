@@ -1,12 +1,22 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
 }
+
 
 .bg-bastille {
     background-color: #e3f2fd;
 }
 
-.navbar-brand {
+.navbar-brand, footer p {
     font-family: 'Pacifico', cursive;
 }
 
