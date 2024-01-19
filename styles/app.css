@@ -16,7 +16,7 @@ body {
     background-color: #e3f2fd;
 }
 
-.navbar-brand, footer p {
+.navbar-brand, footer p, .logo {
     font-family: 'Pacifico', cursive;
 }
 
@@ -136,3 +136,15 @@ body {
     background-color: red;
     border: none;
 } */
+
+hr {
+    opacity: 0.3;
+}
+
+.my-button {
+    border-radius: 20px;
+    border: .1px solid rgba(0, 0, 0, 0.419);
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
